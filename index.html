@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>UK Trip Website</title>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 div,body {
-	background-color: Red;
+	background-color: Tan;
 }
 </style>
 <body>
-
-<div ng-app="">
+<div class="w3-container w3-white">
+  <h1>Our UK Trip Website</h1>
+</div>
+<div class = "w3-container w3-tan">
+ <div ng-app="">
   <p>Name : <input type="text" ng-model="name"></p>
-  <h1>Hello {{name}}</h1>
+  <h3>Hello {{name}}</h3>
+ </div>
   <ul>
 	<li><a href = "http://www.independent.co.uk/news/uk/home-news/london-bombing-tube-parsons-green-suspect-cctv-video-footage-identity-yahyah-farroukh-a7954421.html" target = "_blank">Andrews Article Link</a></li>
   </ul>
