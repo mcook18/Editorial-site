@@ -1,9 +1,25 @@
-<html>
-<head>
-</head>
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8">
+<title>UK Trip Website</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<style>
+div,body {
+	background-color: Red;
+}
+</style>
 <body>
-<ul>
-	<li><a href = "http://www.independent.co.uk/news/uk/home-news/london-bombing-tube-parsons-green-suspect-cctv-video-footage-identity-yahyah-farroukh-a7954421.html">Andrew's Article Link</a></li>
-</ul>
+
+<div ng-app="">
+  <p>Name : <input type="text" ng-model="name"></p>
+  <h1>Hello {{name}}</h1>
+  <ul>
+	<li><a href = "http://www.independent.co.uk/news/uk/home-news/london-bombing-tube-parsons-green-suspect-cctv-video-footage-identity-yahyah-farroukh-a7954421.html" target = "_blank">Andrews Article Link</a></li>
+  </ul>
+  <p>
+  After reading the article profiling the three different London tube bombers I came to wonder why the individual flagged as an extremist and arrested for violent acts was not put through some kind of program or taken more seriously by the anti-terrorist section of the police department. Who even is there in charge of dealing with people like this? Is there an agency like the US has in the CIA/FBI or is it all handled by Scotland Yard? The article also mentions a number of individuals were involved yet you only mention the one attacker was born outside of the UK. How will we handle these other ones that were born in the UK and how can we find a way to prevent such acts from happening again? The article mentions that the bomb exploded in the train and that thirty people were injured but it never discusses the how the bomb got there in the first place. Does nobody check bags anymore or is that purely the madness of Americas TSA? 
+  </p>
+</div>
+
 </body>
-</html>
+</html> 
